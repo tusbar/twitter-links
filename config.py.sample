@@ -1,0 +1,10 @@
+# Configuration
+
+screen_name = ''
+
+consumer_key = '@@@@@@@@@@@@'
+consumer_secret = '@@@@@@@@@@@@@'
+auth_token = '@@@@@@@@@@@@@@'
+auth_token_secret = '@@@@@@@@@@@@@@'
+
+db_file = 'tweets.db'
