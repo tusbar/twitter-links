@@ -83,7 +83,7 @@ class Parser(ttp.Parser):
     def format_url(self, url, text):
         o = urlparse.urlparse(url, allow_fragments=True)
         print o.hostname
-        if o.hostname in minifiers.urls:
+        if config.link_resolve_mode == 'all' or config.link_resolve_mode == 'minified' and o.hostname in minifiers.urls:
             self.c.execute('select resolved from urls where minified = ?', (url,))
             urls = self.c.fetchall()
             if len(urls):

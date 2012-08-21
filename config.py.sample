@@ -8,3 +8,9 @@ auth_token = '@@@@@@@@@@@@@@'
 auth_token_secret = '@@@@@@@@@@@@@@'
 
 db_file = 'tweets.db'
+
+link_resolve_mode='minified'
+# Link resolving modes:
+# all:      all links are resolved
+# minified: only minified links are resolved
+# none:     the links won't be resolved
