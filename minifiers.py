@@ -11,5 +11,6 @@ urls=[
     'bbc.in',
     'igg.me',
     'youtu.be',
-    'flpbd.it'
+    'flpbd.it',
+    'shar.es'
     ]
