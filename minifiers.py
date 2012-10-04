@@ -12,5 +12,7 @@ urls=[
     'igg.me',
     'youtu.be',
     'flpbd.it',
-    'shar.es'
+    'shar.es',
+    'slate.me',
+    'gsfn.us'
     ]
