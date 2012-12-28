@@ -14,5 +14,10 @@ urls=[
     'flpbd.it',
     'shar.es',
     'slate.me',
-    'gsfn.us'
+    'gsfn.us',
+    'eepurl.com',
+    'ow.ly',
+    'tcrn.ch',
+    'engt.co',
+    '4sq.com'
     ]
